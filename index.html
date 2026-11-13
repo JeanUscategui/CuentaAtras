@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-title" content="Regreso">
+    <meta name="theme-color" content="#d3ecff">
+    <link rel="apple-touch-icon" href="icono.png">
+
+    <title>Cuenta regresiva · Regreso a Colombia</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Nunito:wght@400;600;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="sky" id="sky"></div>
+    <div class="hearts" id="hearts"></div>
+    <div class="sun"></div>
+
+    <main class="card">
+        <div class="flag"><span></span><span></span><span></span></div>
+
+        <p class="kicker">Darch, pronto estarás en casa</p>
+        <h1 class="title" id="title">Regreso a Colombia</h1>
+
+        <section class="hero">
+            <span class="hero-number" id="days">000</span>
+            <span class="hero-label">días para abrazarte</span>
+        </section>
+
+        <section class="timer">
+            <div class="box"><b id="hours">00</b><small>horas</small></div>
+            <div class="box"><b id="minutes">00</b><small>min</small></div>
+            <div class="box"><b id="seconds">00</b><small>seg</small></div>
+        </section>
+
+        <section class="journey">
+            <div class="track">
+                <div class="fill" id="fill"></div>
+                <div class="plane" id="plane">✈️</div>
+            </div>
+            <div class="journey-info">
+                <span>Tu viaje</span>
+                <span id="percent">0%</span>
+                <span>🇨🇴 Colombia</span>
+            </div>
+        </section>
+
+        <p class="message" id="message"></p>
+        <p class="date">1 de febrero de 2027</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
